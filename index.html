@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/fontawesome-free-6.3.0-web/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+
+<body>
+    <!-- header -->
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">LT's Books</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Trang chủ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./info.html">Giới thiệu</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="./signin-signup.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Liên hệ
+                    </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="./signin-signup.html">Phản hồi</a></li>
+                                <li><a class="dropdown-item" href="./signin-signup.html">Hỗ trợ</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Chính sách ưu đãi</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" tabindex="-1">Sản phẩm</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./signin-signup.html" tabindex="-1">Đăng ký / Đăng nhập</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- end header -->
+    <!-- slides -->
+    <section class="slide__body">
+        <div class="container">
+            <div class="container_slide">
+                <div class="slides">
+                    <div class="item">
+                        <img src="./uploads/muonkiepbia.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./uploads/Lam-di.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="./uploads/yeue.jpg" alt="">
+                    </div>
+                </div>
+                <div class="next"><i class="fas fa-arrow-right"></i></div>
+                <div class="prev"><i class="fas fa-arrow-left"></i></div>
+            </div>
+        </div>
+    </section>
+    <!-- end slides -->
+    <!-- Body product one -->
+    <section class="body_product">
+
+        <div class="container">
+            <div class="title">
+                <h3>Sản phẩm bán chạy</h3>
+            </div>
+            <div class="scroll">
+                <marquee scrollamount="8">Mua sách tại
+                    <font color="red">Letous Books</font> với giá ưu đãi lên đến
+                    <font color="purple">50%!!!</font>
+                </marquee>
+            </div>
+            <div class="show_product">
+                <div class="card">
+                    <div class="items">
+                        <div class="image">
+                            <img src="./uploads/lamdi.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <h3>Làm đĩ </h3>
+                            <p>200.000 đ</p>
+                        </div>
+
+                        <div class="button">
+                            <a href="#">Mua</a>
+                            <a href="#">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="items">
+                        <div class="image">
+                            <img src="./uploads/eyeu.jpg " alt="">
+                        </div>
+                        <div class="text">
+                            <h3>Bình tĩnh khi ế, mạnh mẽ khi yêu</h3>
+                            <p>120.000 đ</p>
+                        </div>
+
+                        <div class="button">
+                            <a href="./detail.html">Mua</a>
+                            <a href="./detail.html">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="items">
+                        <div class="image">
+                            <img src="./uploads/hoachuc.png" alt="">
+                        </div>
+                        <div class="text">
+                            <h3>Động phòng hoa chúc cách vách </h3>
+                            <p>170.000 đ</p>
+                        </div>
+
+                        <div class="button">
+                            <a href="#">Mua</a>
+                            <a href="#">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="items">
+                        <div class="image">
+                            <img src="./uploads/tamly.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <h3>Thao túng tâm lý </h3>
+                            <p>135.000 đ</p>
+                        </div>
+
+                        <div class="button">
+                            <a href="#">Mua</a>
+                            <a href="#">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="items">
+                        <div class="image">
+                            <img src="./uploads/thachthao.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <h3>Thạch thảo trong cơn bão </h3>
+                            <p>150.000 đ</p>
+                        </div>
+
+                        <div class="button">
+                            <a href="#">Mua</a>
+                            <a href="#">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="items">
+                        <div class="image">
+                            <img src="./uploads/voi.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <h3>Ai nói voi không thể khiêu vũ? </h3>
+                            <p>90.000 đ</p>
+                        </div>
+
+                        <div class="button">
+                            <a href="#">Mua</a>
+                            <a href="#">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="items">
+                        <div class="image">
+                            <img src="./uploads/cainoi.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <h3>Cái nồi gì thế? </h3>
+                            <p>74.800 đ</p>
+                        </div>
+
+                        <div class="button">
+                            <a href="#">Mua</a>
+                            <a href="#">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="items">
+                        <div class="image">
+                            <img src="./uploads/conbo.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <h3>Ngày xưa có một con bò </h3>
+                            <p>79.000 đ</p>
+                        </div>
+                        <div class="button">
+                            <a href="#">Mua</a>
+                            <a href="#">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="items">
+                        <div class="image">
+                            <img src="./uploads/mettim.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <h3>Mệt tim mỏi não - Ngôn ngữ cơ thể </h3>
+                            <p>75.000 đ</p>
+                        </div>
+
+                        <div class="button">
+                            <a href="#">Mua</a>
+                            <a href="#">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="items">
+                        <div class="image">
+                            <img src="./uploads/concho.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <h3>Bí ẩn về con chó lúc nửa đêm </h3>
+                            <p>64.000 đ</p>
+                        </div>
+                        <div class="button">
+                            <a href="#">Mua</a>
+                            <a href="#">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end Body product one -->
+    <!-- Body product discount -->
+    <section class="body_product discount">
+        <div class="container">
+            <div class="title">
+                <h3>Sản phẩm khuyến mãi</h3>
+            </div>
+            <div class="show_product">
+                <div class="card">
+                    <div class="items">
+                        <div class="image">
+                            <img src="./uploads/toithayhoavangtrencoxanh.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <h3>Tôi thấy hoa vàng trên cỏ xanh </h3>
+                            <p>
+                                <span><s>125.000đ</s></span>
+                                <span>75.000đ</span>
+                            </p>
+                        </div>
+                        <span class="discount">40%</span>
+
+                        <div class="button">
+                            <a href="#">Mua</a>
+                            <a href="#">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="items">
+                        <div class="image">
+                            <img src="./uploads/dacnhantam.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <h3>Đắc nhân tâm </h3>
+                            <p>
+                                <span><s>68.000đ</s></span>
+                                <span>40.800đ</span>
+                            </p>
+                        </div>
+                        <span class="discount">40%</span>
+                        <!---->
+                        <div class="button">
+                            <a href="#">Mua</a>
+                            <a href="#">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="items">
+                        <div class="image">
+                            <img src="./uploads/20nam.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <h3>20 năm lịch sử thị trường chứng khoán Việt Nam </h3>
+                            <p>
+                                <span><s>269.000đ</s></span>
+                                <span>193.680đ</span>
+                            </p>
+                        </div>
+                        <span class="discount">28%</span>
+
+                        <div class="button">
+                            <a href="#">Mua</a>
+                            <a href="#">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="items">
+                        <div class="image">
+                            <img src="./uploads/muonkiep.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <h3>Muôn kiếp nhân sinh </h3>
+                            <p>
+                                <span><s>168.000đ</s></span>
+                                <span>134.400đ</span>
+                            </p>
+                        </div>
+                        <span class="discount">20%</span>
+
+                        <div class="button">
+                            <a href="#">Mua</a>
+                            <a href="#">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="items">
+                        <div class="image">
+                            <img src="./uploads/nhagiakim.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <h3>Nhà gỉả kim </h3>
+                            <p>
+                                <span><s>89.000đ</s></span>
+                                <span>71.200đ</span>
+                            </p>
+                        </div>
+                        <span class="discount">20%</span>
+
+                        <div class="button">
+                            <a href="#">Mua</a>
+                            <a href="#">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="items">
+                        <div class="image">
+                            <img src="./uploads/sherlockholmes.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <h3>Sherlock Holmes toàn tập </h3>
+                            <p>
+                                <span><s>450.000đ</s></span>
+                                <span>396.000đ</span>
+                            </p>
+                        </div>
+                        <span class="discount">12%</span>
+
+                        <div class="button">
+                            <a href="#">Mua</a>
+                            <a href="#">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="items">
+                        <div class="image">
+                            <img src="./uploads/motmanhtrang.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <h3>Một mảnh trăng </h3>
+                            <p>
+                                <span><s>179.000đ</s></span>
+                                <span>134.250đ</span>
+                            </p>
+                        </div>
+                        <span class="discount">25%</span>
+
+                        <div class="button">
+                            <a href="#">Mua</a>
+                            <a href="#">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="items">
+                        <div class="image">
+                            <img src="./uploads/anhnhan.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <h3>Đừng lựa chọn an nhàn khi còn trẻ </h3>
+                            <p>
+                                <span><s>127.000đ</s></span>
+                                <span>104.140đ</span>
+                            </p>
+                        </div>
+                        <span class="discount">18%</span>
+
+                        <div class="button">
+                            <a href="#">Mua</a>
+                            <a href="#">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="items">
+                        <div class="image">
+                            <img src="./uploads/deepwork.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <h3>Deep Work - Làm ra làm chơi ra chơi </h3>
+                            <p><span><s>200.000đ</s></span>
+                                <span>175.000đ</span></p>
+                        </div>
+                        <span class="discount">25%</span>
+
+                        <div class="button">
+                            <a href="#">Mua</a>
+                            <a href="#">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="items">
+                        <div class="image">
+                            <img src="./uploads/doi-ngan-dung-ngu-dai.jpg" alt="">
+                        </div>
+                        <div class="text">
+                            <h3>Đời ngắn đừng ngủ dài </h3>
+                            <p>
+                                <span><s>125.000đ</s></span>
+                                <span>100.000đ</span>
+                            </p>
+                        </div>
+                        <span class="discount">25%</span>
+
+                        <div class="button">
+                            <a href="#">Mua</a>
+                            <a href="#">Xem chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end Body product discount -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <h3 class="name_website">Les Tous Books</h3>
+                    <div>
+                        <img src="./uploads/Group.png" alt="">
+                    </div>
+                    <p>
+                        LTBooks.com
+                    </p>
+                </div>
+                <div class="col-4">
+                    <h3 class="title">Dịch vụ</h3>
+                    <ul>
+                        <li><a href="">Trang chủ</a></li>
+                        <li><a href="./info.html">Giới thiệu</a></li>
+                        <li><a href="">Sản phẩm</a></li>
+                        <li><a href="">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <h3 class="title">Tài khoản của tôi</h3>
+                    <ul>
+                        <li><a href="./signin-signup.html">Đăng nhập/Tạo mới tài khoản</a></li>
+                        <li><a href="">Thay đổi địa chỉ khách hàng</a></li>
+                        <li><a href="">Chi tiết tài khoản</a></li>
+                        <li><a href="">Lịch sử mua hàng</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <p class="copyriht">Loading...</p>
+    </footer>
+    <div class="overlay"></div>
+    <div class="popup_shopping">
+        <div class="body_shopping">
+            <table>
+                <thead>
+                    <tr>
+                        <th>STT</th>
+                        <th>Tên sản phẩm</th>
+                        <th>Giá</th>
+                        <th>Số lượng</th>
+                        <th>Hành động</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Áo kaki V.P.1</td>
+                        <td>200.000</td>
+                        <td>10</td>
+                        <td>
+                            <a href="">Delete</a>
+                            <a href="">Add</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Áo kaki V.P.1</td>
+                        <td>100.000</td>
+                        <td>5</td>
+                        <td>
+                            <a href="">Delete</a>
+                            <a href="">Add</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Áo kaki V.P.1</td>
+                        <td>300.000</td>
+                        <td>10</td>
+                        <td>
+                            <a href="">Delete</a>
+                            <a href="">Add</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="close">
+                <button type="button" class="button">Close</button>
+            </div>
+        </div>
+    </div>
+    <script src="./js/slide.js"></script>
+    <script>
+        let popup_card = document.getElementById('popup_card');
+        let popup = document.querySelector('.popup_shopping');
+        let overlay = document.querySelector('.overlay');
+        let button = document.querySelector('button.button');
+        popup_card.addEventListener("click", () => {
+            popup.classList.add('active');
+            overlay.classList.add('active');
+        });
+        overlay.addEventListener("click", () => {
+            popup.classList.remove('active');
+            overlay.classList.remove('active');
+        });
+        button.addEventListener("click", () => {
+            popup.classList.remove('active');
+            overlay.classList.remove('active');
+        });
+        let nav_bar = document.querySelector('.nav_bar');
+        let nav_link = document.querySelector('.nav__link');
+        nav_bar.addEventListener("click", () => {
+            nav_bar.classList.toggle('active_menu');
+            nav_link.classList.toggle('active_menu');
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
